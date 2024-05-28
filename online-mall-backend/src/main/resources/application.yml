@@ -1,0 +1,41 @@
+# YML是一种文件格式，全称为YAML（YAML Ain't Markup Language），SpringBoot通常使用YML作为项目配置。
+# 它是一种人类可读的、简洁明了的数据序列化格式。YAML文件格式通常用于配置文件、数据交换、消息传递和其他应用程序。
+# 可以通过文本编辑器进行编辑，也可以通过程序进行解析。YML文件格式是一种以层级缩进的方式表示程序数据结构的格式。
+# 在数据表示方面比XML等格式更加简洁清晰易读。YML文件格式通常以“.yml”为扩展名。
+
+# 服务端口
+server:
+  port: 8888
+
+# Spring配置
+spring:
+
+  # 数据库配置
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/DB_OnlineMall?serverTimezone=GMT%2b8&useSSL=false
+    username: root
+    password: root
+
+  servlet:
+    multipart:
+      # 最大文件传输大小
+      max-file-size: 30MB
+
+  # Redis
+  redis:
+    database: 0
+    host: 127.0.0.1
+    port: 6379
+    lettuce:
+      pool:
+        min-idle: 0
+        max-active: 8
+        max-idle: 8
+        max-wait: -1ms
+    connect-timeout: 30000ms
+
+mybatis:
+  mapper-locations: classpath:mapper/*.xml
+  configuration:
+    map-underscore-to-camel-case: true
