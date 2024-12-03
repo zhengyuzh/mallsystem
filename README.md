@@ -73,6 +73,11 @@
 ![在这里插入图片描述](https://img-blog.csdnimg.cn/direct/406d85b8fbd84e57adb704a134ea29a4.png)
 ![在这里插入图片描述](https://img-blog.csdnimg.cn/direct/b58eb6b7bd634c8d8048f9c465274795.png)
 
+# 个人公众号
+**乡下小哥编程**
+ 【微信联系方式：18348375641】
+![69b6a7d89a00beaf79eeaa4a699d756](https://github.com/user-attachments/assets/b50e9711-cb02-4b38-9338-f70ca9248137)
+
 # 获取相关资料
 ![73628010199117607](https://github.com/zhengyuzh/mallsystem/assets/95670150/bef4ed64-2e0a-4dd8-a02e-a6aa85968fa0)
              
